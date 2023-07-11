@@ -1,0 +1,21 @@
+{
+  "name": "eslint-config-enpitech",
+  "version": "1.0.0",
+  "description": "eslint configuration for enpitech projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dav-sap",
+  "license": "ISC",
+  "peerDependencies": {
+    "eslint": ">= 8.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-storybook": "^0.6.12",
+    "prettier": "^3.0.0",
+    "react-hooks": "^1.0.1",
+    "typescript-eslint": "^0.0.1-alpha.0"
+  }
+}
