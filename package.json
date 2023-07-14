@@ -14,8 +14,8 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-storybook": "^0.6.12",
-    "prettier": "^3.0.0",
-    "react-hooks": "^1.0.1"
+    "prettier": "^3.0.0"
   }
 }
