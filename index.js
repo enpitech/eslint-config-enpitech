@@ -1,13 +1,17 @@
 module.exports = {
     extends: [
         "eslint:recommended",
+        "eslint-plugin-react",
+        "eslint-plugin-react-hooks",
+        "eslint-plugin-jsx-a11y",
+        "eslint-plugin-import",
         "plugin:@typescript-eslint/recommended",
         "prettier",
         "plugin:storybook/recommended",
       ],
       rules: {
-        // please dont make an error occure here we use console.error
-        "no-console": ["warn", { allow: ["warn"] }],
+        "no-console": ["warn", { allow: ["warn"] }], // please don't make an error occur here we use console.error
+        "eqeqeq": "error",
         "no-alert": "error",
         "no-debugger": "error",
         "@typescript-eslint/ban-ts-comment": "off",
