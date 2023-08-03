@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-enpitech",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "eslint configuration for React projects",
   "main": "index.js",
   "scripts": {

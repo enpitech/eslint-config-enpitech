@@ -2,12 +2,11 @@ module.exports = {
     extends: [
         "eslint:recommended",
         "plugin:react/recommended",
-        "eslint-plugin-react-hooks",
-        "eslint-plugin-jsx-a11y",
-        "eslint-plugin-import",
+        "plugin:react-hooks/recommended",
+        "plugin:import/recommended",
         "plugin:@typescript-eslint/recommended",
-        "prettier",
         "plugin:storybook/recommended",
+        "prettier",
       ],
       rules: {
         "no-console": ["warn", { allow: ["warn"] }], // please don't make an error occur here we use console.error
@@ -21,6 +20,7 @@ module.exports = {
       parser: "@typescript-eslint/parser",
       plugins: [
         "@typescript-eslint",
-        "react-hooks"
+        "react-hooks",
+        "jsx-a11y"
       ]
 };
