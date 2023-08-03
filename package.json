@@ -1,13 +1,13 @@
 {
   "name": "eslint-config-enpitech",
   "version": "1.0.0",
-  "description": "eslint configuration for enpitech projects",
+  "description": "eslint configuration for React projects",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Enpitech LTD",
-  "license": "ISC",
+  "license": "MIT",
   "peerDependencies": {
     "eslint": ">= 8.0.0"
   },
@@ -17,5 +17,12 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-storybook": "^0.6.12",
     "prettier": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/enpitech/eslint-config-enpitech"
+  },
+  "bugs": {
+    "url": "https://github.com/enpitech/eslint-config-enpitech/issues"
   }
 }
