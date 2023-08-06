@@ -20,7 +20,6 @@ module.exports = {
       },
       parser: "@typescript-eslint/parser",
       plugins: [
-        "@typescript-eslint",
         "react-hooks",
         "jsx-a11y"
       ],
