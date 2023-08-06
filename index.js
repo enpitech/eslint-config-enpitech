@@ -4,7 +4,6 @@ module.exports = {
         "plugin:react/recommended",
         "plugin:react-hooks/recommended",
         "plugin:import/recommended",
-        "plugin:@typescript-eslint/recommended",
         "plugin:storybook/recommended",
         "prettier",
         "plugin:react/jsx-runtime"
